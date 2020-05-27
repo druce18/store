@@ -9,13 +9,9 @@ import java.util.Objects;
 public class ProductForm {
 
     private Long code;
-
     private String name;
-
     private Integer price;
-
     private Integer quantity;
-
     private MultipartFile file;
 
 

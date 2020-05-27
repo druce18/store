@@ -17,7 +17,7 @@ public class Constants {
     public static final String WRONG_INPUT = " Wrong input ";
     public static final String WRONG_INPUT_PRODUCT = " Wrong input product ";
     public static final String WRONG_INPUT_QUANTITY = " Wrong input quantity ";
-    public static final String USER_EXISTS = " A user with the same name already exists. ";
+    public static final String USER_EXISTS = " Username already in use select other name. ";
     public static final String YOU_BOUGHT_THESE_PRODUCTS = " You bought these products ";
     public static final String IMAGE_JPEG_JPG_PNG_GIF = "image/jpeg, image/jpg, image/png, image/gif";
     public static final String USERNAME = "username";

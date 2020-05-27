@@ -36,8 +36,8 @@ public class BasketServiceImpl implements BasketService {
 
     @Override
     public void addBasket(Long code, Integer count) {
-        if (count != null && count > 0) {
-            ProductForm product = new ProductForm(productDAO.findById(code).get());
+        ProductForm product = new ProductForm(productDAO.findById(code).get());
+        if (count != null && count > 0 && count <= product.getQuantity()) {
             product.setQuantity(count);
             basket.add(product);
             eventLogger.logEvent(userService.usernameNow() + Constants.ADD_BASKET + product.toString());

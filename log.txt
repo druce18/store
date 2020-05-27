@@ -6,3 +6,22 @@ admin save Product {code = null, name = tea, price = 2, quantity = 777}
 admin update Product {code = 1, name = tea black, price = 3, quantity = 999}
 admin add basket Product {code = 1, name = tea black, price = 3, quantity = 3}
 admin buy Product {code = 1, name = tea black, price = 3, quantity = 3}
+admin save Product {code = null, name = coffee, price = 2, quantity = 4420}
+admin update Product {code = 1, name = coffee, price = 2, quantity = 4420}
+admin save Product {code = null, name = milk, price = 1, quantity = 111}
+admin save Product {code = null, name = water, price = 1, quantity = 122}
+admin save Product {code = null, name = burger, price = 5, quantity = 92}
+admin save Product {code = null, name = tea, price = 3, quantity = 322}
+admin save Product {code = null, name = pizza, price = 11, quantity = 454}
+admin save Product {code = null, name = potatoes, price = 7, quantity = 1212}
+admin update Product {code = 3, name = water, price = 2, quantity = 777}
+admin delete 6
+user add basket Product {code = 4, name = burger, price = 5, quantity = 555}
+user add basket Product {code = 4, name = burger, price = 5, quantity = 999}
+user add basket Product {code = 4, name = burger, price = 5, quantity = 6666}
+user add basket Product {code = 3, name = water, price = 2, quantity = 23}
+user add basket Product {code = 1, name = coffee, price = 2, quantity = 7}
+user add basket Product {code = 4, name = burger, price = 5, quantity = 3}
+user buy Product {code = 1, name = coffee, price = 2, quantity = 7}
+user buy Product {code = 4, name = burger, price = 5, quantity = 3}
+admin delete 7
